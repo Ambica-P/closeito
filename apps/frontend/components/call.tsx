@@ -60,7 +60,7 @@ export default function CallSimulation({ scrollYProgress }: CallSimulationProps)
             <div className="relative aspect-video bg-black">
                 <video
                     ref={videoRef}
-                    src="/untitled.mp4"
+                    src="/CallSimulation.mp4"
                     muted
                     playsInline
                     preload="auto"
