@@ -58,9 +58,4 @@ site-packages/
 *_pb2.py
 *_pb2_grpc.py
 
-# -----------------------------
-# Optional: Large media files
-# -----------------------------
-*.mp4
-*.mp3
-*.wav
+
