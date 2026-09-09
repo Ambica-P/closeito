@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package avatar;
+
+service AvatarService {
+  rpc StreamAvatar(stream AudioChunk) returns (stream VideoFrame);
+}
+
+message AudioChunk {
+  bytes pcm = 1;
+  int64 timestamp = 2;
+}
+
+message VideoFrame {
+  int32 width = 1;
+  int32 height = 2;
+  bytes data = 3;     // raw RGB frame
+  int64 timestamp = 4;
+}
