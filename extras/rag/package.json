@@ -1,7 +1,0 @@
-{
-  "name": "@repo/rag",
-  "exports":"./src/index.ts",
-  "devDependencies": {
-    "@repo/typescript-config":"workspace:*"
-  }
-}
